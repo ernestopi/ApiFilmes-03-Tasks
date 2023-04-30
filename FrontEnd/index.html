@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task Manager</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Task App</h1>
+	<form>
+		<label for="description">Description:</label>
+		<input type="text" id="description" name="description"><br>
+
+		<label for="responsible">Responsible:</label>
+		<input type="text" id="responsible" name="responsible"><br>
+
+		<label for="level">Level:</label>
+		<input type="number" id="level" name="level"><br>
+
+		<label for="priority">Priority:</label>
+		<input type="number" id="priority" name="priority"><br>
+
+		<button type="submit" id="addTask">Add Task</button>
+	</form>
+
+	<div id="tasks"></div>
+
+	<script src="script.js"></script>
+</body>
+</html>
